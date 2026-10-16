@@ -1,0 +1,15 @@
+[project]
+name = "face-detection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]>=0.143.3",
+]
+
+
+[[tool.uv.index]]
+name = "liara-mirror"
+url = "https://package-mirror.liara.ir/repository/pypi/simple"
+default = true
